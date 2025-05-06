@@ -876,6 +876,118 @@
             overflow-x: hidden;
         }
     </style>
+    <!-- Certification Section -->
+<section class="certification" id="certification">
+    <div class="section-title">
+        <h2>Teste de Habilidades & Certificação</h2>
+        <p>Avalie seu conhecimento e obtenha um certificado reconhecido nacionalmente</p>
+    </div>
+    <div class="certification-content">
+        <div class="certification-image floating">
+            <img src="https://images.unsplash.com/photo-1589330694653-ded6df03f754?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Certificação Edukangola" style="width: 100%; border-radius: 20px; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);">
+        </div>
+        <div class="certification-details">
+            <div class="certification-feature">
+                <div class="feature-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Avaliação Pós-Curso</h3>
+                <p>Após concluir qualquer curso em nossos centros parceiros, você poderá testar suas habilidades adquiridas em nosso sistema de avaliação padronizado.</p>
+            </div>
+            <div class="certification-feature">
+                <div class="feature-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Certificação Reconhecida</h3>
+                <p>Obtenha um certificado digital com validade nacional quando atingir pelo menos 50% de aproveitamento no teste. Seu certificado terá um código QR para verificação.</p>
+            </div>
+            <div class="certification-feature">
+                <div class="feature-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Vantagens no Mercado</h3>
+                <p>Seu certificado será automaticamente compartilhado com empresas parceiras, aumentando suas oportunidades de emprego e estágio.</p>
+            </div>
+            <div class="certification-feature">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Progresso Mensurável</h3>
+                <p>Acompanhe seu desenvolvimento através do nosso sistema de relatórios detalhados que mostram suas forças e áreas para melhoria.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Certification Section Styles */
+    .certification {
+        padding: 5rem 5%;
+        background: linear-gradient(135deg, #f5f9ff, #e6f2ff);
+    }
+    
+    .certification-content {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 3rem;
+    }
+    
+    .certification-image {
+        width: 45%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .certification-details {
+        width: 55%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+    
+    .certification-feature {
+        background: white;
+        border-radius: 15px;
+        padding: 1.5rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+    
+    .certification-feature:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 102, 204, 0.1);
+    }
+    
+    .certification-feature .feature-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 1rem;
+    }
+    
+    .certification-feature h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+        color: var(--dark);
+    }
+    
+    .certification-feature p {
+        color: #666;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    @media (max-width: 768px) {
+        .certification-content {
+            flex-direction: column;
+        }
+        
+        .certification-image,
+        .certification-details {
+            width: 100%;
+        }
+    }
+</style>
 
     <!-- CTA Section -->
     <section class="cta-section">
